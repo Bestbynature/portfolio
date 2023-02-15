@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Media screen for mobiles with minimum width of 375px */
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url(./images/background.png);
+    background-size: contain;
+  }
+
+  header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .img_class {
+    width: 76px;
+    height: 20px;
+  }
+
+  nav {
+    display: none;
+    flex: 1;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    color: #344563;
+  }
+
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+
+  .bigtext {
+    color: #091e42;
+    font-size: 3rem;
+    width: 327px;
+    height: 150px;
+  }
+
+  p {
+    color: #344563;
+    font-size: 16px;
+    width: 327px;
+    height: 146px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  #introduction {
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+
+  .connect {
+    color: #7f8cff;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .fa-brands {
+    margin: 1%;
+    font-size: 1.5rem;
+    color: #505f79;
+  }
+
+  .fa-bars {
+    color: #acb7c3;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    font-size: 24px;
+  }
+}
+
+/* Media screen for desktop with minimum width of 768px */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #introduction {
+    padding-left: 20%;
+    padding-top: 10%;
+  }
+
+  nav {
+    font-size: 2rem;
+    display: block;
+  }
+
+  .connect {
+    font-size: 2.5rem;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .img_class {
+    width: 76px;
+    height: 20px;
+  }
+
+  .bigtext {
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    font-size: 3rem;
+    width: 920px;
+    height: 122px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 920px;
+    height: 98px;
+    order: 1;
+    flex: none;
+    flex-grow: 0;
+  }
+}
