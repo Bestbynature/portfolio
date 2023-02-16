@@ -7,8 +7,10 @@
 /* Media screen for mobiles with minimum width of 375px */
 @media screen and (min-width: 375px) {
   body {
-    background-image: url(./images/background.png);
+    background-image: url(./images/header-shapes-mobile.png);
     background-size: contain;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
   }
 
   header {
@@ -17,23 +19,24 @@
     align-items: center;
   }
 
-  .img_class {
+  .logo-text {
     width: 76px;
     height: 20px;
+    color: #6070ff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
   }
 
   nav {
-    display: none;
+    display: flex;
     flex: 1;
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 1rem;
-    color: #344563;
   }
 
   nav ul {
-    display: inline-block;
+    display: none;
     list-style-type: none;
   }
 
@@ -44,23 +47,32 @@
 
   a {
     text-decoration: none;
-    color: #555;
+    font-size: 15px;
+    color: #344563;
   }
 
-  .bigtext {
-    color: #091e42;
-    font-size: 3rem;
+  .bigtext1 {
+    display: none;
+  }
+
+  .bigtext2 {
+    color: #172b4d;
+    font-size: 40px;
     width: 327px;
     height: 150px;
+    font-weight: bolder;
+    font-style: normal;
   }
 
-  p {
+  .small-text {
     color: #344563;
     font-size: 16px;
     width: 327px;
     height: 146px;
-    line-height: 24px;
-    margin-top: 20px;
+    margin-top: 40px;
+    padding-right: 10px;
+    font-style: normal;
+    font-weight: 400;
   }
 
   #introduction {
@@ -70,9 +82,10 @@
 
   .connect {
     color: #7f8cff;
-    font-size: 1.5rem;
-    margin-top: 3%;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
   }
 
   .fa-brands {
@@ -82,11 +95,28 @@
   }
 
   .fa-bars {
-    color: #acb7c3;
+    color: #6070ff;
     position: absolute;
     left: 75%;
     top: 5%;
     font-size: 24px;
+  }
+
+  #introduction ul {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 16px;
+    font-style: normal;
+  }
+
+  #introduction ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  #introduction ul li a {
+    text-decoration: none;
+    color: #505f79;
   }
 }
 
@@ -94,10 +124,10 @@
 
 @media screen and (min-width: 768px) {
   body {
-    background-image: url(./images/background.png);
+    background-image: url(./images/Header_desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    font-family: 'Poppins', sans-serif;
   }
 
   #introduction {
@@ -111,25 +141,36 @@
   }
 
   .connect {
-    font-size: 2.5rem;
+    font-size: 16px;
+    margin-top: 10px;
   }
 
-  .fa-bars {
+  nav .fa-bars {
     display: none;
   }
 
-  .img_class {
-    width: 76px;
-    height: 20px;
+  nav ul {
+    display: inline-block;
   }
 
-  .bigtext {
+  .bigtext1 {
     display: flex;
     align-items: center;
     color: #091e42;
-    font-size: 3rem;
+    font-size: 48px;
     width: 920px;
     height: 122px;
+  }
+
+  .bigtext2 {
+    display: none;
+  }
+
+  .small-text {
+    font-size: 20px;
+    width: 920px;
+    height: 98px;
+    margin-top: 20px;
   }
 
   p {
