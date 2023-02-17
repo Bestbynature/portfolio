@@ -7,10 +7,8 @@
 /* Media screen for mobiles with minimum width of 375px */
 @media screen and (min-width: 375px) {
   body {
-    background-image: url(./images/header-background-mobile.png);
-    background-size: contain;
     font-family: 'Poppins', sans-serif;
-    background-repeat: no-repeat;
+    background-color: #fff;
   }
 
   header {
@@ -19,6 +17,9 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    background-image: url(./images/header-background-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .logo-text {
@@ -121,6 +122,10 @@
     display: inline-block;
   }
 
+  .frames ul {
+    width: 100%;
+  }
+
   #introduction ul {
     display: inline-block;
     list-style-type: none;
@@ -151,9 +156,17 @@
     list-style-type: none;
   }
 
+  .frames ul li {
+    width: 100%;
+  }
+
   #introduction ul li {
     display: inline-block;
     margin-right: 10px;
+  }
+
+  .frames ul li a {
+    width: 100%;
   }
 
   #introduction ul li a {
@@ -161,11 +174,13 @@
     color: #505f79;
   }
 
-  /* begining of the works and about section */
+  .bottom-margin {
+    margin-bottom: 40px;
+  }
+
   .works-container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(4, 80vh);
     background-color: #e5e5e5;
     grid-row-gap: 40px;
     padding-top: 40px;
@@ -177,24 +192,32 @@
     border: 1px solid #dfe1e6;
     width: 90%;
     margin: 10px auto;
+    height: 552px;
   }
 
   .card-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
 
   .img-class {
-    width: 90%;
-    margin-top: 20px;
+    width: 300px;
+    height: 210px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+  }
+
+  .extra-wh-bg {
+    background-color: #fff;
+    height: 600px;
   }
 
   .text-border {
     width: 90%;
-    margin: 20px auto;
+    margin: 5px auto;
   }
 
   .fa-circle {
@@ -206,15 +229,15 @@
     color: #172b4d;
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
     margin-top: 0;
   }
 
   .canopy {
     font-size: 13px;
     font-weight: bolder;
-    word-spacing: 10px;
-    margin-bottom: 20px;
+    word-spacing: 3px;
+    margin-bottom: 10px;
   }
 
   .span1 {
@@ -228,16 +251,15 @@
   .card-text {
     font-size: 15px;
     color: #344563;
-    line-height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .btn3 {
     background-color: #ebebff;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 10px;
-    padding: 5px 20px;
+    padding: 3px 20px;
     color: #6070ff;
     border: none;
   }
@@ -248,12 +270,15 @@
   }
 
   .btn-1 {
-    font-size: 24px;
-    padding: 10px;
+    font-size: 17px;
+    padding: 12px;
     border: 1px solid #396df2;
     background-color: #fff;
-    border-radius: 16px;
+    border-radius: 8px;
     color: #396df2;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 5px;
   }
 
   .btn-1:hover {
@@ -271,21 +296,22 @@
     color: #5e6c84;
   }
 
-  #about-section-bg {
+  .bg {
     background-color: #e5e5e5;
   }
 
   #about-section {
     padding-top: 120px;
     height: 1265px;
-    border-top-right-radius: 100px;
     background: #fff;
+    border-radius: 0 100px 0 0;
   }
 
   #about-myself {
     font-size: 40px;
     font-weight: bolder;
     color: #172b4d;
+    margin-left: 22px;
   }
 
   .about-text {
@@ -321,19 +347,37 @@
   .frames {
     display: flex;
     flex-direction: column;
+    width: 94%;
+    margin-top: 0;
   }
 
-  .frames a img {
-    width: 90%;
-    height: 8vh;
-    margin-bottom: 15px;
+  .skills-btn {
+    height: 66px;
+    width: 100%;
+    font-size: 25px;
     border-radius: 8px;
+    background-color: #f7f7f9;
+    color: #253858;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    padding: 5px;
     border: none;
+    font-style: normal;
+  }
+
+  .skills-logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+  }
+
+  .right-padding {
+    padding-right: 35px;
   }
 }
 
 /* Media screen for desktop with minimum width of 768px */
-
 @media screen and (min-width: 768px) {
   body {
     background-image: url(./images/header\ background\ shape-desktop.png);
