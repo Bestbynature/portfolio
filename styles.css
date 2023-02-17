@@ -352,13 +352,12 @@
   }
 
   .skills-btn {
-    height: 66px;
-    width: 100%;
+    height: 75px;
+    width: 92%;
     font-size: 25px;
     border-radius: 8px;
     background-color: #f7f7f9;
     color: #253858;
-    font-weight: 550;
     display: flex;
     align-items: center;
     padding: 5px;
