@@ -374,6 +374,20 @@
   .right-padding {
     padding-right: 35px;
   }
+
+  
+/* Contact form */
+
+.contact {
+  background: #6070ff url(./images/contact.png) no-repeat;
+  width: 100%;
+  height: 800px;
+  margin-top: 15vh;
+  border-top-left-radius: 100px;
+  background-position: right;
+  background-position-y: 30px;
+  padding-top: 110px;
+}
 }
 
 /* Media screen for desktop with minimum width of 768px */
