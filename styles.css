@@ -399,11 +399,52 @@
   }
 
   .contact-text {
-    color: #fff;
+    color: #dfe1e6;
     padding: 0 16px;
-    color: #fff;
     text-align: center;
     margin-bottom: 16px;
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    row-gap: 16px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #6070ff;
+    color: #5d5d5d;
+  }
+
+  .contact form input:active,
+  .contact form textarea:active,
+  .contact form input:focus,
+  .contact form textarea:focus,
+  .contact form input:hover::placeholder,
+  .contact form textarea:hover::placeholder {
+    color: #091e42;
+  }
+
+  .contact form fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact form #submit {
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #6070ff;
+    font-size: 18px;
+    padding: 14px 28px;
+    border-radius: 8px;
   }
 }
 
