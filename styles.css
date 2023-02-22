@@ -377,7 +377,7 @@
 
   /* Contact form */
 
-  .contact {
+  /* .contact {
     background: #6070ff url(./images/contact.png) no-repeat;
     width: 100%;
     height: 800px;
@@ -483,7 +483,115 @@
     border: 2px solid #0d151e;
     border-radius: 10px;
     margin-top: 25px;
+  } */
+
+  .contact {
+    background: #6070ff url(./images/contact.png) no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 15vh;
+    border-top-left-radius: 100px;
+    background-position: right;
+    background-position-y: 30px;
+    padding-top: 110px;
   }
+
+  .contact-box {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-title {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  .contact-text {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  input {
+    border-radius: 8px;
+    height: 48px;
+    border: 1px solid #cfd8dc;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #172b4d;
+    padding: 10px;
+  }
+
+  input:focus {
+    box-shadow: 0 0 17px 5px ;
+  }
+
+  #submit {
+    color: #6070ff;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    width: 42%;
+    height: 48px;
+    margin-bottom: 25px;
+  }
+
+  #submit:hover {
+    box-shadow: 0 0 10px 3px;
+    color: #fff;
+    background-color: #172b4d;
+  }
+
+  #submit:active {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  #submit:visited {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+  }
+
+  textarea {
+    font-family: 'Poppins', sans-serif;
+    color: #b3bac5;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px 3px #000;
+  }
+
+  #base-rule {
+    width: 40%;
+    align-self: center;
+    border: 2px solid #0d151e;
+    border-radius: 10px;
+  }
+
+
 }
 
 /* Media screen for desktop with minimum width of 768px */
