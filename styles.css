@@ -162,11 +162,14 @@ body {
   padding: 15px;
   font-size: 17px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(0);
 }
 
 .see:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: translateY(-3px);
 }
 
 .see:visited {
