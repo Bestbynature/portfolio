@@ -429,6 +429,11 @@ textarea:focus {
 
   .img-top {
     width: 50%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .img-top:hover {
+    transform: translateY(-7px);
   }
 
   .about {
