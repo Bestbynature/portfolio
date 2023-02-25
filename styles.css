@@ -25,6 +25,8 @@ body {
   align-items: center;
   padding: 30px;
   color: #6070ff;
+  position: fixed;
+  width: 100%;
 }
 
 .links {
@@ -341,8 +343,8 @@ textarea:focus {
   .links a {
     text-decoration: none;
     color: #344563;
-    font-size: 10px;
-    margin-right: 25px;
+    font-size: 15px;
+    margin-right: 30px;
   }
 
   .other-content {
@@ -391,18 +393,11 @@ textarea:focus {
     font-size: 25px;
   }
 
-  .canopy {
-    margin: 1px 0 10px 0;
-    word-spacing: 2px;
-  }
+  .canopy { margin: 1px 0 10px 0; }
 
-  .span1 {
-    font-size: 12px;
-  }
+  .span1 { font-size: 12px; }
 
-  .span2 {
-    font-size: 5px;
-  }
+  .span2 { font-size: 5px; }
 
   .card-text {
     font-size: 10px;
@@ -411,9 +406,7 @@ textarea:focus {
     line-height: 14px;
   }
 
-  .btns-33 ul {
-    margin: 5px 0 5px 0;
-  }
+  .btns-33 ul { margin: 5px 0 5px 0; }
 
   .see {
     width: 29%;
@@ -432,9 +425,7 @@ textarea:focus {
     transition: transform 0.5s ease-in-out;
   }
 
-  .img-top:hover {
-    transform: translateY(-7px);
-  }
+  .img-top:hover { transform: translateY(-7px); }
 
   .about {
     flex-direction: row;
@@ -446,9 +437,7 @@ textarea:focus {
     padding-top: 23px;
   }
 
-  .about1 p {
-    font-size: 12px;
-  }
+  .about1 p { font-size: 12px; }
 
   .about1 h1 {
     font-size: 30px;
@@ -456,9 +445,7 @@ textarea:focus {
     margin-bottom: 10px;
   }
 
-  .about1 h3 {
-    font-size: 13px;
-  }
+  .about1 h3 { font-size: 13px; }
 
   .about2 {
     flex-basis: 50%;
@@ -491,18 +478,12 @@ textarea:focus {
     background-size: cover;
   }
 
-  form {
-    width: 40%;
-  }
+  form { width: 40%; }
 
   input,
-  textarea {
-    border-radius: 0;
-  }
+  textarea { border-radius: 0; }
 
-  .contact-title {
-    font-size: 30px;
-  }
+  .contact-title { font-size: 30px; }
 
   .contact-text {
     width: 45%;
@@ -510,9 +491,7 @@ textarea:focus {
     margin-bottom: 10px;
   }
 
-  #base {
-    display: none;
-  }
+  #base { display: none; }
 
   .expad {
     margin: 0 auto 60px auto;
