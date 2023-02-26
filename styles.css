@@ -14,9 +14,9 @@ body {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+
   /* color: linear-gradient (to right, #6070ff, rgba(235, 124, 124, 0.75)); */
   color: rgb(24, 43, 212);
-  
 }
 
 .fa-leaf {
@@ -44,20 +44,19 @@ body {
   z-index: 500;
 }
 
-
 .fa-leaf:hover {
   animation-play-state: paused;
 }
 
 @keyframes leaf {
   0% {
-    transform:rotate3d(1, 1, 1, 45deg);
+    transform: rotate3d(1, 1, 1, 45deg);
     top: 3px;
   }
 
   100% {
     top: 100vh;
-    transform:rotate3d(2, 2, 2, 300deg);
+    transform: rotate3d(2, 2, 2, 300deg);
   }
 }
 
@@ -370,6 +369,16 @@ textarea:focus {
   box-shadow: 0 0 5px 3px;
 }
 
+input:invalid,
+textarea:invalid {
+  border: 3px solid red;
+}
+
+input:valid,
+textarea:valid {
+  border: 3px solid green;
+}
+
 #base {
   border-radius: 7px;
   border: 2px solid #0d151e;
@@ -551,10 +560,75 @@ textarea:focus {
     padding: 8px 3px 8px 3px;
     font-size: 13px;
   }
+
+  .what {
+    display: flex;
+    padding: 1rem;
+    width: 60%;
+    position: relative;
+    color: #469be0;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+  }
+
+  .circle {
+    border: 2px solid brown;
+    padding: 17px;
+    border-radius: 50%;
+    position: relative;
+    right: -54px;
+    background-color: #fff;
+  }
+
+  .join {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+    animation: chat 1s ease-in-out 2s infinite alternate;
+  }
+
+  .white {
+    height: 40%;
+    width: 90%;
+    position: relative;
+    right: -70px;
+  }
+
+  .join:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes chat {
+    0% {
+      width: 50%;
+    }
+
+    100% {
+      width: 93%;
+    }
+  }
+
+  .fa-square-whatsapp {
+    font-size: 3rem;
+    background-color: #0f0;
+    border-color: #0f0;
+  }
+
+  .rect {
+    background: linear-gradient(to right, rgba(159, 236, 16, 0.75), rgba(226, 78, 206, 0.75));
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    border-radius: 0 1.2rem 1.2rem 0;
+    word-spacing: 0.5rem;
+  }
 }
 
-
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 900px) {
   .wrapper2 {
     grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(2, auto);
