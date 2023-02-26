@@ -9,6 +9,58 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.span-leaf {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  /* color: linear-gradient (to right, #6070ff, rgba(235, 124, 124, 0.75)); */
+  color: rgb(24, 43, 212);
+  
+}
+
+.fa-leaf {
+  text-align: center;
+  animation: leaf 15s 1s infinite normal none;
+  animation-play-state: running;
+  position: absolute;
+  z-index: 500;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-thin {
+  top: 50px;
+  left: 100px;
+}
+
+.fa-leaf::after {
+  content: "";
+  position: relative;
+  top: 15px;
+  left: 37px;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  z-index: 500;
+}
+
+
+.fa-leaf:hover {
+  animation-play-state: paused;
+}
+
+@keyframes leaf {
+  0% {
+    transform:rotate3d(1, 1, 1, 45deg);
+    top: 3px;
+  }
+
+  100% {
+    top: 100vh;
+    transform:rotate3d(2, 2, 2, 300deg);
+  }
+}
+
 .wrapper1 {
   width: 100%;
   background-color: #fff;
@@ -498,5 +550,34 @@ textarea:focus {
     width: 30%;
     padding: 8px 3px 8px 3px;
     font-size: 13px;
+  }
+}
+
+
+@media only screen and (min-width: 900px){
+  .wrapper2 {
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-big {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 2rem 1rem 0 0;
+    padding: 10px;
+  }
+
+  .img-top {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .links a {
+    font-size: 25px;
   }
 }
