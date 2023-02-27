@@ -30,7 +30,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -120,6 +119,29 @@ Install this project with:
     <li>Copy [.stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css/.stylelintrc.json) to the root directory of your project.</li>
     <li>run 'npx stylelint "**/*.{css,scss}"'</li>
   </ul>
+
+### Usage
+
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+  use git bash to open in Vs code
+```
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+Example command:
+
+```sh
+Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters 
+```
 
   ### Deployment
 
