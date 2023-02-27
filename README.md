@@ -38,7 +38,7 @@
 # 📖 [Portfiolio - Mobile first Project] <a name="about-project"></a>
 
 
-**[Portfiolio - Mobile first Project]** is my first project to show that i can use industry best-practices to design a responsive, mobile first website. It also checks to see if i can translate figma designs to actual web pages.
+**[Portfiolio - Mobile first Project]** is my first project to show that I can use industry best-practices to design a responsive, mobile first website. It also checks to see if i can translate figma designs to actual web pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,6 +65,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [My Portfolio](https://bestbynature.github.io/portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -112,6 +121,13 @@ Install this project with:
     <li>run 'npx stylelint "**/*.{css,scss}"'</li>
   </ul>
 
+  ### Deployment
+
+You can deploy this project using:
+
+- github pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
