@@ -369,16 +369,6 @@ textarea:focus {
   box-shadow: 0 0 5px 3px;
 }
 
-input:invalid,
-textarea:invalid {
-  border: 3px solid red;
-}
-
-input:valid,
-textarea:valid {
-  border: 3px solid green;
-}
-
 #base {
   border-radius: 7px;
   border: 2px solid #0d151e;
