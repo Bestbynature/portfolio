@@ -10,12 +10,9 @@ body {
 }
 
 .span-leaf {
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   font-size: 2rem;
-
-  /* color: linear-gradient (to right, #6070ff, rgba(235, 124, 124, 0.75)); */
   color: rgb(24, 43, 212);
 }
 
@@ -78,6 +75,7 @@ body {
   color: #6070ff;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .links {
