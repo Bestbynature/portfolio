@@ -72,7 +72,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  color: #1A30FF;
+  color: #1a30ff;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -105,7 +105,7 @@ body {
 }
 
 .other-content h2 {
-  color: #1A30FF;
+  color: #1a30ff;
   font-size: 16px;
   font-weight: 500;
   margin: 12px 0;
@@ -197,7 +197,7 @@ body {
 
 .btn3 {
   padding: 3px 10px;
-  color: #1A30FF;
+  color: #1a30ff;
   font-size: 14px;
   border: none;
   border-radius: 10px;
@@ -263,7 +263,7 @@ body {
 }
 
 .about1 h2 {
-  color: #1A30FF;
+  color: #1a30ff;
   font-size: 16px;
   font-weight: 500;
   margin: 12px 0;
@@ -309,7 +309,7 @@ body {
 }
 
 .contact {
-  background: #1A30FF url(./images/contact_mobile_svg.svg) no-repeat;
+  background: #1a30ff url(./images/contact_mobile_svg.svg) no-repeat;
   background-size: contain;
   border-top-left-radius: 80px;
   display: flex;
