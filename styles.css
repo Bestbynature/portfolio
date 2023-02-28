@@ -72,7 +72,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  color: #6070ff;
+  color: #1A30FF;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -104,8 +104,8 @@ body {
   margin-bottom: 10px;
 }
 
-.other-content h3 {
-  color: #7f8cff;
+.other-content h2 {
+  color: #1A30FF;
   font-size: 16px;
   font-weight: 500;
   margin: 12px 0;
@@ -157,7 +157,7 @@ body {
   justify-content: space-between;
 }
 
-.lower h3 {
+.lower h2 {
   font-size: 40px;
   color: #172b4d;
 }
@@ -181,7 +181,7 @@ body {
 }
 
 .card-text {
-  font-size: 15px;
+  font-size: 18px;
   color: #344563;
 }
 
@@ -197,8 +197,8 @@ body {
 
 .btn3 {
   padding: 3px 10px;
-  color: #6070ff;
-  font-size: 12px;
+  color: #1A30FF;
+  font-size: 14px;
   border: none;
   border-radius: 10px;
 }
@@ -218,12 +218,12 @@ body {
 }
 
 .see:hover {
-  background-color: #6070ff;
+  background-color: #5cabcf;
   color: #fff;
   transform: translateY(-3px);
 }
 
-.see:visited {
+.see:active {
   background-color: #2230d2;
   color: #fff;
 }
@@ -262,8 +262,8 @@ body {
   word-spacing: 3px;
 }
 
-.about1 h3 {
-  color: #7f8cff;
+.about1 h2 {
+  color: #1A30FF;
   font-size: 16px;
   font-weight: 500;
   margin: 12px 0;
@@ -309,7 +309,7 @@ body {
 }
 
 .contact {
-  background: #6070ff url(./images/contact_mobile_svg.svg) no-repeat;
+  background: #1A30FF url(./images/contact_mobile_svg.svg) no-repeat;
   background-size: contain;
   border-top-left-radius: 80px;
   display: flex;
@@ -358,7 +358,7 @@ textarea:focus {
   border-radius: 8px;
   border: none;
   outline: none;
-  color: #b3bac5;
+  color: #637083;
 }
 
 input:focus,
@@ -375,6 +375,10 @@ textarea:focus {
 }
 
 .card-big {
+  display: none;
+}
+
+.form-hide {
   display: none;
 }
 
@@ -437,7 +441,7 @@ textarea:focus {
     padding-right: 15px;
   }
 
-  .lower h3 {
+  .lower h2 {
     margin-bottom: 0;
     font-size: 25px;
   }
@@ -449,10 +453,10 @@ textarea:focus {
   .span2 { font-size: 5px; }
 
   .card-text {
-    font-size: 10px;
+    font-size: 15px;
     word-spacing: 0;
     margin-bottom: 0;
-    line-height: 14px;
+    line-height: 20px;
   }
 
   .btns-33 ul { margin: 5px 0 5px 0; }
@@ -494,7 +498,7 @@ textarea:focus {
     margin-bottom: 10px;
   }
 
-  .about1 h3 { font-size: 13px; }
+  .about1 h2 { font-size: 13px; }
 
   .about2 {
     flex-basis: 50%;
