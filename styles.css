@@ -72,10 +72,20 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  color: #1a30ff;
   position: fixed;
   width: 100%;
   z-index: 1;
+}
+
+.burger {
+  color: #1a30ff;
+}
+
+.wrapper1 .logo {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1a30ff;
 }
 
 .links {
@@ -127,6 +137,10 @@ body {
 }
 
 .intro2 {
+  display: none;
+}
+
+.what {
   display: none;
 }
 
@@ -251,7 +265,7 @@ body {
   width: 48%;
 }
 
-.about1 h1 {
+.about1 h2 {
   font-size: 40px;
   color: #172b4d;
 }
@@ -262,7 +276,7 @@ body {
   word-spacing: 3px;
 }
 
-.about1 h2 {
+.about1 h3 {
   color: #1a30ff;
   font-size: 16px;
   font-weight: 500;
@@ -492,13 +506,13 @@ textarea:focus {
 
   .about1 p { font-size: 12px; }
 
-  .about1 h1 {
+  .about1 h2 {
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 10px;
   }
 
-  .about1 h2 { font-size: 13px; }
+  .about1 h3 { font-size: 13px; }
 
   .about2 {
     flex-basis: 50%;
@@ -620,6 +634,7 @@ textarea:focus {
   }
 }
 
+/* -------------------Media query for screen above 900px-------------------------------------- */
 @media only screen and (min-width: 900px) {
   .wrapper2 {
     grid-template-columns: repeat(2, 40%);
