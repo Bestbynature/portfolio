@@ -32,3 +32,14 @@ modalX.addEventListener('click', () => {
 });
 
 // script to handle each of the links on the modal
+links.forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    modalHide();
+    const target = event.target.getAttribute('href');
+    const section = document.querySelector(target);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
