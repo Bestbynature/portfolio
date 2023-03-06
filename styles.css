@@ -84,7 +84,7 @@ body {
 
 .modal {
   background-color: rgba(26, 48, 255, 0.7);
-  height: 95vh;
+  height: 100vh;
   position: absolute;
   width: 100%;
   top: 0;
@@ -95,19 +95,19 @@ body {
 }
 
 .close {
-  font-size: 1.5rem;
-  padding: 4rem 2rem 0 0;
+  font-size: 1.3rem;
+  padding: 1.8rem 2rem 0 0;
   color: #fff;
   align-self: flex-end;
 }
 
 .modal ul {
   padding-left: 2rem;
-  line-height: 5rem;
+  line-height: 4rem;
 }
 
 .modal ul li {
-  font-size: 2rem;
+  font-size: 1.5rem;
   list-style-type: none;
   font-weight: 500;
 }
