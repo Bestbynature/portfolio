@@ -64,6 +64,7 @@ body {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 50px;
+  padding-bottom: 7rem;
 }
 
 .wrapper1 header {
@@ -71,7 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 30px 30px 90px 30px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -79,6 +80,50 @@ body {
 
 .burger {
   color: #1a30ff;
+}
+
+.modal {
+  background-color: rgba(26, 48, 255, 0.7);
+  height: 95vh;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.close {
+  font-size: 1.5rem;
+  padding: 4rem 2rem 0 0;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.modal ul {
+  padding-left: 2rem;
+  line-height: 5rem;
+}
+
+.modal ul li {
+  font-size: 2rem;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+.modal ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.modal-rule {
+  width: 40%;
+  border: 2px solid black;
+  margin: 0 auto 0 auto;
+  position: absolute;
+  bottom: 2rem;
+  align-self: center;
 }
 
 .wrapper1 .logo {
@@ -97,7 +142,7 @@ body {
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 90px 20px;
+  padding: 140px 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
