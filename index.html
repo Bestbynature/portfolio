@@ -12,6 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="modal">
+    <div class="close"><i class="fa-solid fa-xmark"></i></div>
+    <ul>
+      <li class="modal-link"><a href="#portfolio">Portfolio </a> </li>
+      <li class="modal-link"><a href="#about">About</a> </li>
+      <li class="modal-link"><a href="#contact">Contact </a> </li>
+    </ul>
+    <hr class="modal-rule">
+  </div>
   <div class="wrapper1">
     <span class="span-leaf" title="The leaf emblem"><i class="fa-solid fa-leaf" alt="leaf animation 1"></i></span>
     <span class="span-leaf"><i class="fa-thin fa-trillium fa-leaf" alt="leaf animation 2"></i></span>
@@ -20,9 +29,9 @@
       <nav>
         <p class="burger"><i class="fa-solid fa-bars" alt="menu button"></i></p>
         <ul>
-        <li class="links"><a href="#">Portfolio </a> </li>
-        <li class="links"><a href="#">About</a> </li>
-        <li class="links"><a href="#">Contact </a> </li>
+        <li class="links"><a href="#portfolio">Portfolio </a></li>
+        <li class="links"><a href="#about">About</a></li>
+        <li class="links"><a href="#contact">Contact </a></li>
       </ul>
       </nav>
     </header>
@@ -50,8 +59,7 @@
   
   
   <!-- section two ===> works cards -->
-  <section class="wrapper2">
-
+  <section class="wrapper2" id="portfolio">
     <!-- ========================work 1======================================== -->
     <div class="card">
       <img src="./images/works1_img.png" class="img-top" alt="portfolio Image one">
@@ -280,7 +288,7 @@
   </section>
 <!--================================END OF WORKS SECTION==============================-->
   <!-- ================================about section================================= -->
- <section class="about">
+ <section class="about" id="about">
 
   <div class="about1">
     <h2>About <br> Myself</h2>
@@ -315,7 +323,7 @@
  <!--==========================end of about section=================== -->
 
  <!-- ====================begining of contact form ==================== -->
-<section class="bg">
+<section class="bg" id="contact">
     <div class="contact">
       <h2 class="contact-title">Contact me</h2>
             <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
@@ -331,5 +339,6 @@
             </form>
     </div>
 </section>
+<script src="./index.js"></script>
 </body>
 </html>
