@@ -68,11 +68,11 @@ body {
 }
 
 .wrapper1 header {
-  height: 100px;
+  height: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 30px 90px 30px;
+  padding: 30px 30px 30px 30px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -234,7 +234,7 @@ body {
   width: 90%;
   height: auto;
   border-radius: 1rem;
-  margin: 2rem auto;
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   padding: 1rem 1.5rem 1.5rem 1.5rem;
@@ -249,14 +249,15 @@ body {
 .line2 {
   display: flex;
   align-items: baseline;
-  padding-right: 4rem;
+  padding-right: 3rem;
   justify-content: space-between;
   margin: 1rem 0;
 }
 
 .line5 {
   display: flex;
-  margin: 1.5rem 0; 
+  width: 90%;
+  margin: 1.5rem auto; 
 }
 
 .line6 {
@@ -264,6 +265,10 @@ body {
   justify-content: space-around;
   padding: 0.4rem;
   width: 100%;
+}
+
+.line7 {
+  display: none;
 }
 
 .tech {
@@ -572,6 +577,68 @@ textarea:focus {
   .burger,
   .intro1 {
     display: none;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .close2 {
+    font-size: 1rem;
+  }
+
+  .canopy2 {
+    color: #344563;
+  }
+
+  .ruler1 {
+    display: none
+  }
+
+  .line2 {
+    justify-content: space-between;
+    padding-right: 30rem;
+  }
+
+  .line7 {
+    display: flex;
+    width: 90%;
+    margin: 1.5rem auto; 
+  }
+
+  .line6 {
+    padding: 0;
+  }
+
+  .span3 {
+    font-size: 0.7rem;
+  }
+
+  .wholeDiv {
+    display: flex;
+    padding-bottom: 3rem;
+  }
+
+  .leftDiv {
+    flex-basis: 70%;
+    margin: 0 1rem 0 0;
+    color: #344563;
+    font-size: .8rem;
+    line-height: 1.5rem;
+  }
+
+  .rightDiv {
+    flex-basis: 30%;
+  }
+
+  .tech {
+    font-size: .7rem;
+  }
+
+  .see2 {
+    font-size: 0.8rem;
+    height: 2rem;
+    margin: 1rem 0;
   }
 
   .links {
