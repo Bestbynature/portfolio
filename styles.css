@@ -224,9 +224,8 @@ body {
   background-size: cover;
   display: none;
   flex-direction: column;
-  justify-content:end;
+  justify-content: end;
   margin: 1rem 0 0 0;
-  
 }
 
 .white-hide {
@@ -257,7 +256,7 @@ body {
 .line5 {
   display: flex;
   width: 90%;
-  margin: 1.5rem auto; 
+  margin: 1.5rem auto;
 }
 
 .line6 {
@@ -276,7 +275,7 @@ body {
   color: #1a30ff;
   margin-right: 1rem;
   padding: 0.2rem 0.4rem;
-  border-radius: .5rem;;
+  border-radius: 0.5rem;
 }
 
 .see2 {
@@ -291,6 +290,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+
   /* padding: 15px; */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -329,7 +329,7 @@ body {
 
 .dyn-rule {
   width: 40%;
-  margin: .5rem auto 0.8rem auto;
+  margin: 0.5rem auto 0.8rem auto;
   border: 0.2rem solid #000;
   border-radius: 0.5rem;
   align-self: flex-end;
@@ -592,7 +592,7 @@ textarea:focus {
   }
 
   .ruler1 {
-    display: none
+    display: none;
   }
 
   .line2 {
@@ -603,7 +603,7 @@ textarea:focus {
   .line7 {
     display: flex;
     width: 90%;
-    margin: 1.5rem auto; 
+    margin: 1.5rem auto;
   }
 
   .line6 {
@@ -623,7 +623,7 @@ textarea:focus {
     flex-basis: 70%;
     margin: 0 1rem 0 0;
     color: #344563;
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
   }
 
@@ -632,7 +632,7 @@ textarea:focus {
   }
 
   .tech {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .see2 {
