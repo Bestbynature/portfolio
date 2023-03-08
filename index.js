@@ -374,4 +374,15 @@ year.className="span3"
 
   
 }
-
+detailsBtn.forEach((detail, index) =>{
+  detail.addEventListener("click", ()=>{
+    while (whiteHide.firstChild) whiteHide.removeChild(whiteHide.firstChild);
+    while(modal2.firstChild) modal2.removeChild(modal2.firstChild)
+    generator(index);
+    modal2.scrollIntoView({ behavior: 'smooth' });
+    let closeButton = document.querySelector(".close2");
+    window.addEventListener("click", (event)=>{
+     if(event.target === closeButton) modal2.style.display = "none";
+  })
+  })
+})
