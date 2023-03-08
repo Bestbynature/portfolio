@@ -44,6 +44,7 @@ links.forEach(link => {
   });
 });
 
+
 // The begining of the scripts to dynamically generate the modal pop-ups
 // 
 // 
@@ -67,6 +68,27 @@ const portfolio = [
     linkToSource: "https://github.com/Bestbynature/portfolio",
     sourceText: "See Source"
   },
+
+  {
+    name: "Project5",
+    title: "Tonic",
+    description: "CANOPY",
+    year: "2015",
+    moreDetails: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the relea",
+    featuredImg: "./images/Snapshot_1.png",
+    technologies: {
+                    first: "html",
+                    second: "css",
+                    third: "javascript",
+                    fourth: "github",
+                    fifth: "ruby",
+                    sixth: "Bootstrap"
+                  },
+    linkToLiveVersion: "https://bestbynature.github.io/portfolio/",
+    liveVersionText: "See live",
+    linkToSource: "https://github.com/Bestbynature/portfolio",
+    sourceText: "See Source"
+  },
   {
     name: "Project2",
     title: "Multi-Post Stories",
@@ -78,6 +100,27 @@ const portfolio = [
                     first: "html",
                     second: "css",
                     third: "javascript"
+                  },
+    linkToLiveVersion: "https://bestbynature.github.io/portfolio/",
+    liveVersionText: "See live",
+    linkToSource: "https://github.com/Bestbynature/portfolio",
+    sourceText: "See Source"
+  },
+
+  {
+    name: "Project6",
+    title: "Multi-Post Stories",
+    description: "CANOPY",
+    year: "2015",
+    moreDetails: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the relea",
+    featuredImg: "./images/works4_img.png",
+    technologies: {
+                    first: "html",
+                    second: "css",
+                    third: "javascript",
+                    fourth: "github",
+                    fifth: "ruby",
+                    sixth: "Bootstrap"
                   },
     linkToLiveVersion: "https://bestbynature.github.io/portfolio/",
     liveVersionText: "See live",
@@ -102,6 +145,27 @@ const portfolio = [
     sourceText: "See Source"
   },
   {
+    name: "Project 7",
+    title: "FACEBOOK 360",
+    description: "CANOPY",
+    year: "2015",
+    moreDetails: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the relea",
+    featuredImg: "./images/works1_img.png",
+    technologies: {
+                    first: "html",
+                    second: "css",
+                    third: "javascript",
+                    fourth: "github",
+                    fifth: "ruby",
+                    sixth: "Bootstrap"
+                  },
+    linkToLiveVersion: "https://bestbynature.github.io/portfolio/",
+    liveVersionText: "See live",
+    linkToSource: "https://github.com/Bestbynature/portfolio",
+    sourceText: "See Source"
+  },
+
+  {
   name: "Project4",
   title: "Multi-Post Stories",
   description: "CANOPY",
@@ -117,20 +181,35 @@ const portfolio = [
   liveVersionText: "See live",
   linkToSource: "https://github.com/Bestbynature/portfolio",
   sourceText: "See Source"
+},
+
+{
+  name: "Project8",
+  title: "Uber Navigation 360",
+  description: "CANOPY",
+  year: "2015",
+  moreDetails: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the releaLorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it 1960s with the relea",
+  featuredImg: "./images/works2_img.png",
+  technologies: {
+                  first: "html",
+                  second: "css",
+                  third: "javascript",
+                  fourth: "github",
+                  fifth: "ruby",
+                  sixth: "Bootstrap"
+                },
+  linkToLiveVersion: "https://bestbynature.github.io/portfolio/",
+  liveVersionText: "See live",
+  linkToSource: "https://github.com/Bestbynature/portfolio",
+  sourceText: "See Source"
 }
 ]
 
-
-const detailsBtn = document.querySelectorAll(".details")
+const details = document.querySelectorAll(".details")
+const detailsBtn = Array.from(details)
 const whiteHide = document.querySelector(".white-hide")
 const modal2 = document.querySelector(".modal2")
 
-function closer(){
-  // modal2.style.display = "none"
-  // const closeButton = document.querySelector(".close2");
-  // closeButton.removeEventListener("click", closer);
-  console.log("clicked")
-}
 
 function generator(num){
 
@@ -147,7 +226,6 @@ function generator(num){
 
  const icon = document.createElement("i");
   icon.className = "fas fa-xmark close2";
-  // icon.setAttribute("onclick", "closer()")
   head.appendChild(icon);
 
 
@@ -157,6 +235,7 @@ whiteHide.appendChild(line2)
 
 const canopy = document.createElement("h4");
   canopy.textContent = portfolio[num].description;
+  canopy.className="canopy2"
   line2.appendChild(canopy);
   
 const dot = document.createElement("i");
@@ -181,36 +260,72 @@ year.className="span3"
   img.src = portfolio[num].featuredImg;
   whiteHide.appendChild(img)
 
+  const wholeDiv = document.createElement("div")
+  wholeDiv.className="wholeDiv"
+  whiteHide.appendChild(wholeDiv)
+
+  const leftDiv = document.createElement("div")
+  leftDiv.className="leftDiv"
+  wholeDiv.appendChild(leftDiv)
+
+  const rightDiv = document.createElement("div")
+  rightDiv.className="rightDiv"
+  wholeDiv.appendChild(rightDiv)
+
+
+
   const moreDetails = document.createElement("p")
   moreDetails.textContent = portfolio[num].moreDetails
-  whiteHide.appendChild(moreDetails)
+  leftDiv.appendChild(moreDetails)
 
   const line5 = document.createElement("div")
   line5.className="line5"
-  whiteHide.appendChild(line5);
-
-// three divs inside line5
+  rightDiv.appendChild(line5);
+  
+  // three divs inside line5
   const line51 = document.createElement("div")
   line51.className="tech";
   line51.textContent = portfolio[num].technologies.first;
-
+  
+  
   const line52 = document.createElement("div")
   line52.className="tech";
   line52.textContent = portfolio[num].technologies.second;
-
+  
   const line53 = document.createElement("div")
   line53.className="tech";
   line53.textContent = portfolio[num].technologies.third;
   line5.append(line51, line52, line53)
+  
+  // second set of three divs if applicable
+  const line7 = document.createElement("div")
+  line7.className="line7"
+  
+  // three divs inside line5
+  const line71 = document.createElement("div")
+  line71.className="tech";
+  line71.textContent = portfolio[num].technologies.fourth;
+  
+  const line72 = document.createElement("div")
+  line72.className="tech";
+  line72.textContent = portfolio[num].technologies.fifth;
+  
+  const line73 = document.createElement("div")
+  line73.className="tech";
+  line73.textContent = portfolio[num].technologies.sixth;
+  line7.append(line71, line72, line73)
 
+  // appending them to right div
+  rightDiv.append(line5, line7);
+  
   const thin = document.createElement("hr")
   thin.className="ruler1"
-  whiteHide.appendChild(thin)
+  rightDiv.appendChild(thin)
 
   // div for the two buttons
   const line6 = document.createElement("div")
   line6.className="line6"
-  whiteHide.appendChild(line6)
+  rightDiv.appendChild(line6)
 
   // anchor tag
   const anchor1 = document.createElement("a")
@@ -257,22 +372,6 @@ year.className="span3"
   dynRule.className="dyn-rule";
   modal2.appendChild(dynRule);
 
-  const closeButton = document.querySelector(".close2");
-  closeButton.addEventListener("click", ()=>{
-    console.log("button clicked")
-  })
+  
 }
 
-
-detailsBtn.forEach((detail, index) =>{
-  detail.addEventListener("click", ()=>{
-    while (whiteHide.firstChild) whiteHide.removeChild(whiteHide.firstChild);
-    while(modal2.firstChild) modal2.removeChild(modal2.firstChild)
-    generator(index);
-    modal2.scrollIntoView({ behavior: 'smooth' });
-  })
-})
-// console.log(closeButton)
-
-
-// closeButton.addEventListener("click", closeModal);
