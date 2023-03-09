@@ -282,7 +282,7 @@ function generator(num) {
   line5.className = 'line5';
   rightDiv.appendChild(line5);
 
-  // three divs inside line5
+  
   const line51 = document.createElement('div');
   line51.className = 'tech';
   line51.textContent = portfolio[num].technologies.first;
@@ -296,11 +296,11 @@ function generator(num) {
   line53.textContent = portfolio[num].technologies.third;
   line5.append(line51, line52, line53);
 
-  // second set of three divs if applicable
+  
   const line7 = document.createElement('div');
   line7.className = 'line7';
 
-  // three divs inside line5
+  
   const line71 = document.createElement('div');
   line71.className = 'tech';
   line71.textContent = portfolio[num].technologies.fourth;
@@ -314,19 +314,19 @@ function generator(num) {
   line73.textContent = portfolio[num].technologies.sixth;
   line7.append(line71, line72, line73);
 
-  // appending them to right div
+  
   rightDiv.append(line5, line7);
 
   const thin = document.createElement('hr');
   thin.className = 'ruler1';
   rightDiv.appendChild(thin);
 
-  // div for the two buttons
+  
   const line6 = document.createElement('div');
   line6.className = 'line6';
   rightDiv.appendChild(line6);
 
-  // anchor tag
+  
   const anchor1 = document.createElement('a');
   anchor1.className = 'anchor1';
   anchor1.setAttribute('href', portfolio[num].linkToLiveVersion);
@@ -343,7 +343,7 @@ function generator(num) {
   button1.appendChild(icon2);
 
   anchor1.appendChild(button1);
-  // button 2
+  
 
   const anchor2 = document.createElement('a');
   anchor2.className = 'anchor2';
@@ -361,12 +361,10 @@ function generator(num) {
   icon3.className = 'github';
   button2.appendChild(icon3);
 
-  // line6.append(button1, button2)
-
-  // Appending white hide
+  
   modal2.appendChild(whiteHide);
 
-  // Horizontal rule
+  
   const dynRule = document.createElement('hr');
   dynRule.className = 'dyn-rule';
   modal2.appendChild(dynRule);
@@ -426,10 +424,9 @@ submit.addEventListener('click', (event) => {
   }
 });
 
-// Retrieve data from local storage, if it exists
+
 const storedData = JSON.parse(localStorage.getItem('formData')) || {};
 
-// Select all input fields and add event listeners to save data on change
 const inputFields = document.querySelectorAll('input, textarea');
 inputFields.forEach((input) => {
   input.addEventListener('change', (event) => {
@@ -445,10 +442,4 @@ inputFields.forEach((inputField) => {
   if (value) inputField.value = value;
 });
 
-// // Pre-fill input fields with stored data
-// for (const [name, value] of Object.entries(storedData)) {
-//   const inputField = document.querySelector(`[name=${name}]`);
-//   if (inputField) {
-//     inputField.value = value;
-//   }
-// }
+
