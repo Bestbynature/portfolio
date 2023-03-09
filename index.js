@@ -417,9 +417,38 @@ submit.addEventListener('click', (event) => {
   if (form.checkValidity()) {
     form.submit();
   } else {
+    const prevError = document.querySelector('.error-message');
+    if (prevError) prevError.parentNode.removeChild(prevError);
     const errorMessage = document.createElement('span');
     errorMessage.classList.add('error-message');
     errorMessage.textContent = 'Please enter a valid email address in lowercase.';
     emailInput.parentNode.insertBefore(errorMessage, submit.previousSibling);
   }
 });
+
+// Retrieve data from local storage, if it exists
+const storedData = JSON.parse(localStorage.getItem('formData')) || {};
+
+// Select all input fields and add event listeners to save data on change
+const inputFields = document.querySelectorAll('input, textarea');
+inputFields.forEach((input) => {
+  input.addEventListener('change', (event) => {
+    const { name, value } = event.target;
+    storedData[name] = value;
+    localStorage.setItem('formData', JSON.stringify(storedData));
+  });
+});
+
+inputFields.forEach((inputField) => {
+  const name = inputField.getAttribute('name');
+  const value = storedData[name];
+  if (value) inputField.value = value;
+});
+
+// // Pre-fill input fields with stored data
+// for (const [name, value] of Object.entries(storedData)) {
+//   const inputField = document.querySelector(`[name=${name}]`);
+//   if (inputField) {
+//     inputField.value = value;
+//   }
+// }
