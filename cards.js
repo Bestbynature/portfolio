@@ -2,10 +2,7 @@ export default function populateCards() {
   const works = document.querySelector('#portfolio');
 
   works.innerHTML += `
-    <div class="modal2">
-          <div class="white-hide"></div>
-        </div>
-          <div class="card">
+              <div class="card">
           <img src="./images/works1_img.png" class="img-top" alt="portfolio Image one">
           <div class="lower">
     
