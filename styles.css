@@ -236,7 +236,7 @@ body {
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
-  padding: .5rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 1rem 1rem;
 }
 
 .modal-header {
@@ -605,9 +605,9 @@ textarea:focus {
   .modal2-img {
     width: 100%;
     height: 50%;
-    margin: .5rem auto;
+    margin: 0.5rem auto;
   }
-  
+
   .line7 {
     display: flex;
     width: 90%;
@@ -670,6 +670,7 @@ textarea:focus {
     width: 10px;
     height: 10px;
   }
+
   .links {
     display: inline;
   }

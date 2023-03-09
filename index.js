@@ -4,7 +4,7 @@ populateCards();
 const hamburger = document.querySelector('.burger');
 const modal = document.querySelector('.modal');
 const wrapper = document.querySelector('.wrapper1');
-const wrapper2 = document.querySelector('.wrapper2')
+const wrapper2 = document.querySelector('.wrapper2');
 const modalX = document.querySelector('.close');
 const links = document.querySelectorAll('.modal-link');
 
@@ -259,7 +259,7 @@ function generator(num) {
 
   const img = document.createElement('img');
   img.src = portfolio[num].featuredImg;
-  img.className='modal2-img'
+  img.className = 'modal2-img';
   whiteHide.appendChild(img);
 
   const wholeDiv = document.createElement('div');
