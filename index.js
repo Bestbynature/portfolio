@@ -1,4 +1,4 @@
-import { populateCards } from './cards.js';
+import populateCards from './cards.js';
 
 populateCards();
 const hamburger = document.querySelector('.burger');
@@ -380,6 +380,3 @@ detailsBtn.forEach((detail, index) => {
     });
   });
 });
-
-
-

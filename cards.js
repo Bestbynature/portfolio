@@ -1,9 +1,7 @@
+export default function populateCards() {
+  const works = document.querySelector('#portfolio');
 
-
-export function populateCards(){
-const works = document.querySelector("#portfolio")
-
-    works.innerHTML += `
+  works.innerHTML += `
     <div class="modal2">
           <div class="white-hide"></div>
         </div>
@@ -231,9 +229,5 @@ const works = document.querySelector("#portfolio")
     
           <!-- ==========================end of copy 2 ==================================== -->
         <!-- =============================work 4 ======================================== -->
-    `
+    `;
 }
-
-
-
-
