@@ -1,3 +1,6 @@
+import { populateCards } from './cards.js';
+
+populateCards();
 const hamburger = document.querySelector('.burger');
 const modal = document.querySelector('.modal');
 const wrapper = document.querySelector('.wrapper1');
@@ -45,7 +48,6 @@ links.forEach((link) => {
 });
 
 // The begining of the scripts to dynamically generate the modal pop-ups
-//
 //
 // Storing the portfolio items
 
@@ -378,3 +380,6 @@ detailsBtn.forEach((detail, index) => {
     });
   });
 });
+
+
+
