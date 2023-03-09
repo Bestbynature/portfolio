@@ -411,17 +411,16 @@ emailInput.addEventListener("input", function(event) {
   }
 });
 
-const form = document.querySelector("#form-id");
-form.addEventListener("submit", function(event) {
+const form = document.querySelector("form");
+const submit = document.querySelector('.expad')
+submit.addEventListener("click", function(event) {
   event.preventDefault(); 
-  
-  console.log(form)
   if (form.checkValidity()) {
     form.submit();
   } else {
     const errorMessage = document.createElement("span");
     errorMessage.classList.add("error-message");
     errorMessage.textContent = "Please enter a valid email address in lowercase.";
-    emailInput.parentNode.insertBefore(errorMessage, emailInput.nextSibling);
+    emailInput.parentNode.insertBefore(errorMessage, submit.previousSibling);
   }
 });
