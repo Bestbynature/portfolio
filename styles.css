@@ -871,32 +871,3 @@ textarea:focus {
     word-spacing: 0.5rem;
   }
 }
-
-/* -------------------Media query for screen above 900px-------------------------------------- */
-@media only screen and (min-width: 900px) {
-  .wrapper2 {
-    grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(2, auto);
-    grid-row-gap: 0.5rem;
-    grid-column-gap: 4rem;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .card-big {
-    flex-direction: column;
-    width: 90%;
-    height: auto;
-    margin: 2rem 1rem 0 0;
-    padding: 10px;
-  }
-
-  .img-top {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .links a {
-    font-size: 25px;
-  }
-}
