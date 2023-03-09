@@ -282,7 +282,6 @@ function generator(num) {
   line5.className = 'line5';
   rightDiv.appendChild(line5);
 
-  
   const line51 = document.createElement('div');
   line51.className = 'tech';
   line51.textContent = portfolio[num].technologies.first;
@@ -296,11 +295,9 @@ function generator(num) {
   line53.textContent = portfolio[num].technologies.third;
   line5.append(line51, line52, line53);
 
-  
   const line7 = document.createElement('div');
   line7.className = 'line7';
 
-  
   const line71 = document.createElement('div');
   line71.className = 'tech';
   line71.textContent = portfolio[num].technologies.fourth;
@@ -314,19 +311,16 @@ function generator(num) {
   line73.textContent = portfolio[num].technologies.sixth;
   line7.append(line71, line72, line73);
 
-  
   rightDiv.append(line5, line7);
 
   const thin = document.createElement('hr');
   thin.className = 'ruler1';
   rightDiv.appendChild(thin);
 
-  
   const line6 = document.createElement('div');
   line6.className = 'line6';
   rightDiv.appendChild(line6);
 
-  
   const anchor1 = document.createElement('a');
   anchor1.className = 'anchor1';
   anchor1.setAttribute('href', portfolio[num].linkToLiveVersion);
@@ -343,7 +337,6 @@ function generator(num) {
   button1.appendChild(icon2);
 
   anchor1.appendChild(button1);
-  
 
   const anchor2 = document.createElement('a');
   anchor2.className = 'anchor2';
@@ -361,10 +354,8 @@ function generator(num) {
   icon3.className = 'github';
   button2.appendChild(icon3);
 
-  
   modal2.appendChild(whiteHide);
 
-  
   const dynRule = document.createElement('hr');
   dynRule.className = 'dyn-rule';
   modal2.appendChild(dynRule);
@@ -440,5 +431,3 @@ inputFields.forEach((inputField) => {
   const value = storedData[name];
   if (value) inputField.value = value;
 });
-
-
