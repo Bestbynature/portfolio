@@ -424,7 +424,6 @@ submit.addEventListener('click', (event) => {
   }
 });
 
-
 const storedData = JSON.parse(localStorage.getItem('formData')) || {};
 
 const inputFields = document.querySelectorAll('input, textarea');
