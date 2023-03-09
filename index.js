@@ -395,32 +395,31 @@ detailsBtn.forEach((detail, index) => {
   });
 });
 
-
-const emailInput = document.getElementById("input3");
+const emailInput = document.getElementById('input3');
 const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
 
-emailInput.addEventListener("input", function(event) {
+emailInput.addEventListener('input', (event) => {
   const email = event.target.value;
 
   if (!emailRegex.test(email)) {
-    emailInput.setCustomValidity("Please enter a valid email address.");
+    emailInput.setCustomValidity('Please enter a valid email address.');
   } else if (email !== email.toLowerCase()) {
-    emailInput.setCustomValidity("Email must be in lowercase.");
+    emailInput.setCustomValidity('Email must be in lowercase.');
   } else {
-    emailInput.setCustomValidity("");
+    emailInput.setCustomValidity('');
   }
 });
 
-const form = document.querySelector("form");
-const submit = document.querySelector('.expad')
-submit.addEventListener("click", function(event) {
-  event.preventDefault(); 
+const form = document.querySelector('form');
+const submit = document.querySelector('.expad');
+submit.addEventListener('click', (event) => {
+  event.preventDefault();
   if (form.checkValidity()) {
     form.submit();
   } else {
-    const errorMessage = document.createElement("span");
-    errorMessage.classList.add("error-message");
-    errorMessage.textContent = "Please enter a valid email address in lowercase.";
+    const errorMessage = document.createElement('span');
+    errorMessage.classList.add('error-message');
+    errorMessage.textContent = 'Please enter a valid email address in lowercase.';
     emailInput.parentNode.insertBefore(errorMessage, submit.previousSibling);
   }
 });
