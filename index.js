@@ -395,7 +395,7 @@ detailsBtn.forEach((detail, index) => {
   });
 });
 
-// Contact form validation
+
 const emailInput = document.getElementById("input3");
 const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
 
@@ -413,15 +413,12 @@ emailInput.addEventListener("input", function(event) {
 
 const form = document.querySelector("#form-id");
 form.addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent default form submission behavior
+  event.preventDefault(); 
   
   console.log(form)
   if (form.checkValidity()) {
-    // If the form is valid, submit it
     form.submit();
   } else {
-    // If the form is invalid, display an error message or take other actions as needed
-    // For example, you can use the following code to display an error message below the email input field:
     const errorMessage = document.createElement("span");
     errorMessage.classList.add("error-message");
     errorMessage.textContent = "Please enter a valid email address in lowercase.";
