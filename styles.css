@@ -221,7 +221,7 @@ body {
   background-color: rgba(193, 199, 208, 0.1);
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   display: none;
   flex-direction: column;
   justify-content: end;
@@ -236,7 +236,7 @@ body {
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
-  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  padding: .5rem 1rem 1rem 1rem;
 }
 
 .modal-header {
@@ -589,6 +589,7 @@ textarea:focus {
 
   .canopy2 {
     color: #344563;
+    margin-right: 5px;
   }
 
   .ruler1 {
@@ -596,14 +597,25 @@ textarea:focus {
   }
 
   .line2 {
-    justify-content: space-between;
-    padding-right: 30rem;
+    justify-content: flex-start;
+    padding-right: 5rem;
+    margin: 0.3rem 0;
   }
 
+  .modal2-img {
+    width: 100%;
+    height: 50%;
+    margin: .5rem auto;
+  }
+  
   .line7 {
     display: flex;
     width: 90%;
-    margin: 1.5rem auto;
+    margin: 0.5rem auto;
+  }
+
+  .line5 {
+    margin: 0.5rem auto;
   }
 
   .line6 {
@@ -612,6 +624,14 @@ textarea:focus {
 
   .span3 {
     font-size: 0.7rem;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .white-hide {
+    width: 50%;
+    height: 90vh;
+    margin: 2rem auto 1rem auto;
   }
 
   .wholeDiv {
@@ -623,8 +643,8 @@ textarea:focus {
     flex-basis: 70%;
     margin: 0 1rem 0 0;
     color: #344563;
-    font-size: 0.8rem;
-    line-height: 1.5rem;
+    font-size: 0.4rem;
+    line-height: 0.8rem;
   }
 
   .rightDiv {
@@ -632,15 +652,24 @@ textarea:focus {
   }
 
   .tech {
-    font-size: 0.7rem;
+    font-size: 0.4rem;
   }
 
   .see2 {
-    font-size: 0.8rem;
-    height: 2rem;
+    font-size: 0.5rem;
+    height: 1rem;
     margin: 1rem 0;
+    border-radius: 5px;
   }
 
+  .dyn-rule {
+    width: 20%;
+  }
+
+  .github {
+    width: 10px;
+    height: 10px;
+  }
   .links {
     display: inline;
   }
