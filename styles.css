@@ -9,6 +9,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.error-message {
+  color: rgb(228, 143, 143)
+}
+
 .span-leaf {
   display: flex;
   justify-content: center;
