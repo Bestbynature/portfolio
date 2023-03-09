@@ -4,6 +4,7 @@ populateCards();
 const hamburger = document.querySelector('.burger');
 const modal = document.querySelector('.modal');
 const wrapper = document.querySelector('.wrapper1');
+const wrapper2 = document.querySelector('.wrapper2')
 const modalX = document.querySelector('.close');
 const links = document.querySelectorAll('.modal-link');
 
@@ -210,6 +211,8 @@ const details = document.querySelectorAll('.details');
 const detailsBtn = Array.from(details);
 const whiteHide = document.querySelector('.white-hide');
 const modal2 = document.querySelector('.modal2');
+const about = document.getElementById('about');
+const contact = document.getElementById('contact');
 
 function generator(num) {
   modal2.style.display = 'flex';
@@ -256,6 +259,7 @@ function generator(num) {
 
   const img = document.createElement('img');
   img.src = portfolio[num].featuredImg;
+  img.className='modal2-img'
   whiteHide.appendChild(img);
 
   const wholeDiv = document.createElement('div');
@@ -374,9 +378,19 @@ detailsBtn.forEach((detail, index) => {
     while (modal2.firstChild) modal2.removeChild(modal2.firstChild);
     generator(index);
     modal2.scrollIntoView({ behavior: 'smooth' });
+    wrapper.style.filter = 'blur(0.4rem)';
+    wrapper2.style.filter = 'blur(0.4rem)';
+    about.style.filter = 'blur(0.4rem)';
+    contact.style.filter = 'blur(0.4rem)';
     const closeButton = document.querySelector('.close2');
     window.addEventListener('click', (event) => {
-      if (event.target === closeButton) modal2.style.display = 'none';
+      if (event.target === closeButton) {
+        modal2.style.display = 'none';
+        wrapper.style.filter = 'none';
+        wrapper2.style.filter = 'none';
+        about.style.filter = 'none';
+        contact.style.filter = 'none';
+      }
     });
   });
 });
