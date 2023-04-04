@@ -72,7 +72,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project5',
+    name: 'Project6',
     title: 'Tonic',
     description: 'CANOPY',
     year: '2015',
@@ -110,7 +110,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project6',
+    name: 'Project7',
     title: 'Multi-Post Stories',
     description: 'CANOPY',
     year: '2015',
@@ -147,7 +147,7 @@ const portfolio = [
     sourceText: 'See Source',
   },
   {
-    name: 'Project 7',
+    name: 'Project 8',
     title: 'FACEBOOK 360',
     description: 'CANOPY',
     year: '2015',
@@ -186,7 +186,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project8',
+    name: 'Project9',
     title: 'Uber Navigation 360',
     description: 'CANOPY',
     year: '2015',
@@ -205,6 +205,54 @@ const portfolio = [
     linkToSource: 'https://github.com/Bestbynature/portfolio',
     sourceText: 'See Source',
   },
+
+  {
+    name: 'Project5',
+    title: 'Interactive To do List',
+    description: 'ES6 Syntax',
+    year: '2023',
+    moreDetails: `In this project, a simple HTML list of To Do tasks is built with html, CSS and javaScript. The list is styled according to the specifications listed in the project requirement and the entire app is bundled using webpack and served by a webpack dev server.In this project, a simple HTML list of To Do tasks is built with html, CSS and javaScript. The list is styled according to the specifications listed in the project requirement and the entire app is bundled using webpack and served by a webpack dev server. Features Included are: 
+    - Ability to add a task
+    - Ability to delete a task
+    - Ability to mark a task/ tasks as completed
+    - Ability to delete all the marked tasks at once
+    _ Ability to reorder tasks after they've been entered into the app
+    - Ability to sill have access to the to do tasks even after system restarts or browser refresh.`,
+    featuredImg: './images/works5_img.png',
+    technologies: {
+      first: 'html',
+      second: 'css',
+      third: 'javascript',
+      fourth: 'github',
+      fifth: 'Webpack',
+      sixth: 'gh-pages',
+    },
+    linkToLiveVersion: 'https://bestbynature.github.io/TodoList-webpack-ES6/',
+    liveVersionText: 'See live',
+    linkToSource: 'https://github.com/Bestbynature/TodoList-webpack-ES6',
+    sourceText: 'See Source',
+  },
+
+  {
+    name: 'Project10',
+    title: 'Interactive To do List',
+    description: 'ES6 Syntax',
+    year: '2023',
+    moreDetails: "In this project, a simple HTML list of To Do tasks is built with html, CSS and javaScript. The list is styled according to the specifications listed in the project requirement and the entire app is bundled using webpack and served by a webpack dev server.In this project, a simple HTML list of To Do tasks is built with html, CSS and javaScript. The list is styled according to the specifications listed in the project requirement and the entire app is bundled using webpack and served by a webpack dev server. Features Included are:  - Ability to add a task - Ability to delete a task - Ability to mark a task/ tasks as completed <br> - Ability to delete all the marked tasks at once  - Ability to reorder tasks after they've been entered into the app. - Ability to sill have access to the to do tasks even after system restarts or browser refresh.",
+    featuredImg: './images/works5_img.png',
+    technologies: {
+      first: 'html',
+      second: 'css',
+      third: 'javascript',
+      fourth: 'github',
+      fifth: 'Webpack',
+      sixth: 'modular',
+    },
+    linkToLiveVersion: 'https://bestbynature.github.io/TodoList-webpack-ES6/',
+    liveVersionText: 'See live',
+    linkToSource: 'https://github.com/Bestbynature/TodoList-webpack-ES6',
+    sourceText: 'See Source',
+  }
 ];
 
 const details = document.querySelectorAll('.details');

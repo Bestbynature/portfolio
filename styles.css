@@ -201,7 +201,7 @@ body {
 .wrapper2 {
   display: grid;
   grid-template-columns: repeat(1, 100%);
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
   grid-row-gap: 2rem;
   margin-top: 60px;
 }
@@ -660,8 +660,8 @@ textarea:focus {
   }
 
   .see2 {
-    font-size: 0.5rem;
-    height: 1rem;
+    font-size: 0.7rem;
+    height: 2rem;
     margin: 1rem 0;
     border-radius: 5px;
   }

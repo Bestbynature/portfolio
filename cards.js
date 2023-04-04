@@ -20,7 +20,7 @@ export default function populateCards() {
                 <ul>
                   <li><button type="button" class="btn3">html</button></li>
                   <li><button type="button" class="btn3">css</button></li>
-                  <li><button type="button" class="btn3">javascript</button></li>
+                  <li><button type="button" class="btn3">JavaScript</button></li>
                 </ul>
               </div>
               <button type="button" class="see details 1">See Project</button>
@@ -46,7 +46,7 @@ export default function populateCards() {
                   <ul>
                     <li><button type="button" class="btn3">html</button></li>
                     <li><button type="button" class="btn3">css</button></li>
-                    <li><button type="button" class="btn3">javascript</button></li>
+                    <li><button type="button" class="btn3">JavaScript</button></li>
                   </ul>
                 </div>
                 <button type="button" class="see details 2">See Project</button>
@@ -75,7 +75,7 @@ export default function populateCards() {
                 <ul>
                   <li><button type="button" class="btn3">html</button></li>
                   <li><button type="button" class="btn3">css</button></li>
-                  <li><button type="button" class="btn3">javascript</button></li>
+                  <li><button type="button" class="btn3">JavaScript</button></li>
                 </ul>
               </div>
               <button type="button" class="see details 3">See Project</button>
@@ -102,7 +102,7 @@ export default function populateCards() {
                   <li><button type="button" class="btn3">html</button></li>
                   <li><button type="button" class="btn3">Ruby on rails</button></li>
                   <li><button type="button" class="btn3">css</button></li>
-                  <li><button type="button" class="btn3">javascript</button></li>
+                  <li><button type="button" class="btn3">JavaScript</button></li>
                 </ul>
               </div>
               <button type="button" class="see details 4">See Project</button>
@@ -133,7 +133,7 @@ export default function populateCards() {
                 <ul>
                   <li><button type="button" class="btn3">html</button></li>
                   <li><button type="button" class="btn3">css</button></li>
-                  <li><button type="button" class="btn3">javascript</button></li>
+                  <li><button type="button" class="btn3">JavaScript</button></li>
                 </ul>
               </div>
               <button type="button" class="see details 5">See Project</button>
@@ -160,7 +160,7 @@ export default function populateCards() {
                   <li><button type="button" class="btn3">html</button></li>
                   <li><button type="button" class="btn3">Ruby on rails</button></li>
                   <li><button type="button" class="btn3">css</button></li>
-                  <li><button type="button" class="btn3">javascript</button></li>
+                  <li><button type="button" class="btn3">JavaScript</button></li>
                 </ul>
               </div>
               <button type="button" class="see details 6">See Project</button>
@@ -190,7 +190,7 @@ export default function populateCards() {
                   <ul>
                     <li><button type="button" class="btn3">html</button></li>
                     <li><button type="button" class="btn3">css</button></li>
-                    <li><button type="button" class="btn3">javascript</button></li>
+                    <li><button type="button" class="btn3">JavaScript</button></li>
                   </ul>
                 </div>
                 <button type="button" class="see details 7">See Project</button>
@@ -216,7 +216,7 @@ export default function populateCards() {
                     <li><button type="button" class="btn3">html</button></li>
                     <li><button type="button" class="btn3">Ruby on rails</button></li>
                     <li><button type="button" class="btn3">css</button></li>
-                    <li><button type="button" class="btn3">javascript</button></li>
+                    <li><button type="button" class="btn3">JavaScript</button></li>
                   </ul>
                 </div>
                 <button type="button" class="see details 8">See Project</button>
@@ -226,5 +226,62 @@ export default function populateCards() {
     
           <!-- ==========================end of copy 2 ==================================== -->
         <!-- =============================work 4 ======================================== -->
-    `;
+        <!-- =============================start of work 5 ======================================== -->
+        <div class="card">
+            <img src="./images/works5_img.png" class="img-top" alt="portfolio Image five">
+            <div class="lower">
+      
+              <h2>Interactive <br> To do List</h2>
+      
+              <p class="canopy">
+                <span class="span1">ES6 Syntax</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1">Front End Dev</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1"> 2023</span>
+              </p>
+              <p class="card-text">In this project, a simple HTML list of To Do tasks is built with html, CSS and JavaScript.</p>
+              <div class="btns-33">
+                  <ul>
+                    <li><button type="button" class="btn3">html</button></li>
+                    <li><button type="button" class="btn3">CSS</button></li>
+                    <li><button type="button" class="btn3">JavaScript</button></li>
+                  </ul>
+                </div>
+                <button type="button" class="see details 7">See Project</button>
+              </div>
+          </div>
+    
+          <!-- ========================== copy 2 ======================================== -->
+          <div class="card-big">
+            <div class="lower">
+      
+              <h2>Interactive To-do List</h2>
+      
+              <p class="canopy">
+                <span class="span1">ES6 Syntax</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1">Front End Development</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1"> 2023</span>
+              </p>
+              <p class="card-text">In this project, a simple HTML list of To Do tasks is built with html, CSS and JavaScript.</p>
+              <div class="btns-33">
+                  <ul>
+                    <li><button type="button" class="btn3">html</button></li>
+                    <li><button type="button" class="btn3">Modules</button></li>
+                    <li><button type="button" class="btn3">CSS</button></li>
+                    <li><button type="button" class="btn3">JavaScript</button></li>
+                  </ul>
+                </div>
+                <button type="button" class="see details 8">See Project</button>
+              </div>
+            <img src="./images/works5_img.png" class="img-top" alt="portfolio Desktop Image one">
+            </div>
+    
+          <!-- ==========================end of copy 2 ==================================== -->
+
+        <!-- =============================end of work 5 ======================================== -->
+
+    `
 }
