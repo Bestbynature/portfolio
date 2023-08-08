@@ -283,5 +283,63 @@ export default function populateCards() {
 
         <!-- =============================end of work 5 ======================================== -->
 
+        <!-- =============================start of work 6 ======================================== -->
+
+        <div class="card">
+            <img src="./images/works6_img.png" class="img-top" alt="portfolio Image six">
+            <div class="lower">
+      
+              <h2>Budget App <br> (SpendWise)</h2>
+      
+              <p class="canopy">
+                <span class="span1">Ruby</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1">RubyonRails</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1"> 2023</span>
+              </p>
+              <p class="card-text">SpendWise is a mobile web application designed to help users efficiently manage their budgets and track expenses.</p>
+              <div class="btns-33">
+                  <ul>
+                    <li><button type="button" class="btn3">Ruby</button></li>
+                    <li><button type="button" class="btn3">Rails</button></li>
+                    <li><button type="button" class="btn3">PostgreSQL</button></li>
+                  </ul>
+                </div>
+                <button type="button" class="see details 7">See Project</button>
+              </div>
+          </div>
+    
+          <!-- ========================== copy 2 ======================================== -->
+          <div class="card-big">
+            <div class="lower">
+      
+              <h2>SpendWise Budget App</h2>
+      
+              <p class="canopy">
+                <span class="span1">Ruby</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1">Ruby on Rails</span>
+                <span class="span2"><i class="fa-sharp fa-solid fa-circle" alt="just a dot"></i></span>
+                <span class="span1"> 2023</span>
+              </p>
+              <p class="card-text">SpendWise is a mobile web application designed to help users efficiently manage their budgets and track expenses. </p>
+              <div class="btns-33">
+                  <ul>
+                    <li><button type="button" class="btn3">Ruby</button></li>
+                    <li><button type="button" class="btn3">Rails</button></li>
+                    <li><button type="button" class="btn3">CSS</button></li>
+                    <li><button type="button" class="btn3">PostgreSQL</button></li>
+                  </ul>
+                </div>
+                <button type="button" class="see details 8">See Project</button>
+              </div>
+            <img src="./images/works6_img.png" class="img-top" alt="portfolio Desktop Image one">
+            </div>
+    
+          <!-- ==========================end of copy 2 ==================================== -->
+
+        <!-- =============================end of work 6 ======================================== -->
+
     `
 }

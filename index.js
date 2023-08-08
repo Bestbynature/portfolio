@@ -72,7 +72,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project6',
+    name: 'Project7',
     title: 'Tonic',
     description: 'CANOPY',
     year: '2015',
@@ -110,7 +110,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project7',
+    name: 'Project8',
     title: 'Multi-Post Stories',
     description: 'CANOPY',
     year: '2015',
@@ -147,7 +147,7 @@ const portfolio = [
     sourceText: 'See Source',
   },
   {
-    name: 'Project 8',
+    name: 'Project 9',
     title: 'FACEBOOK 360',
     description: 'CANOPY',
     year: '2015',
@@ -186,7 +186,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project9',
+    name: 'Project10',
     title: 'Uber Navigation 360',
     description: 'CANOPY',
     year: '2015',
@@ -234,7 +234,7 @@ const portfolio = [
   },
 
   {
-    name: 'Project10',
+    name: 'Project11',
     title: 'Interactive To do List',
     description: 'ES6 Syntax',
     year: '2023',
@@ -251,6 +251,59 @@ const portfolio = [
     linkToLiveVersion: 'https://bestbynature.github.io/TodoList-webpack-ES6/',
     liveVersionText: 'See live',
     linkToSource: 'https://github.com/Bestbynature/TodoList-webpack-ES6',
+    sourceText: 'See Source',
+  },
+
+  {
+    name: 'Project6',
+    title: 'SpendWise',
+    description: 'Ruby on Rails App',
+    year: '2023',
+    moreDetails: `SpendWise is a mobile web application designed to help users efficiently manage their budgets and track expenses. With an intuitive and user-friendly interface, this app enables individuals to gain insights into their spending habits and make informed financial decisions.
+    Key Features include:
+    - User Registration and Authentication
+    - Budget Creation and Management
+    - Expense Tracking
+    - Budget Visualization
+    - Expense Insights and Analytics etc`,
+    featuredImg: './images/works6_img.png',
+    technologies: {
+      first: 'Bootstrap',
+      second: 'PostgreSQL',
+      third: 'Rubyon Rails',
+      fourth: 'Rails',
+      fifth: 'Rubocop',
+      sixth: 'Render',
+    },
+    linkToLiveVersion: 'https://spendwise-jrzs.onrender.com/',
+    liveVersionText: 'See live',
+    linkToSource: 'https://github.com/Bestbynature/SpendWise',
+    sourceText: 'See Source',
+  },
+  {
+    name: 'Project12',
+    title: 'SpendWise',
+    description: 'Ruby on Rails App',
+    year: '2023',
+    moreDetails: `SpendWise is a mobile web application designed to help users efficiently manage their budgets and track expenses. With an intuitive and user-friendly interface, this app enables individuals to gain insights into their spending habits and make informed financial decisions.
+    Key Features include:
+    - User Registration and Authentication
+    - Budget Creation and Management
+    - Expense Tracking
+    - Budget Visualization
+    - Expense Insights and Analytics etc`,
+    featuredImg: './images/works6_img.png',
+    technologies: {
+      first: 'Bootstrap',
+      second: 'PostgreSQL',
+      third: 'Ruby',
+      fourth: 'Rails',
+      fifth: 'Rubocop',
+      sixth: 'Render',
+    },
+    linkToLiveVersion: 'https://spendwise-jrzs.onrender.com/',
+    liveVersionText: 'See live',
+    linkToSource: 'https://github.com/Bestbynature/SpendWise',
     sourceText: 'See Source',
   }
 ];
