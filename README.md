@@ -32,7 +32,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+<!--Portfolio PROJECT DESCRIPTION -->
 
 # 📖 [Portfiolio - Mobile first Project] <a name="about-project"></a>
 
