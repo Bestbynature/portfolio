@@ -37,7 +37,7 @@
 # 📖 [Portfiolio - Mobile first Project] <a name="about-project"></a>
 
 
-**[Portfiolio - Mobile first Project]** is my first project to show that I can use industry best-practices to design a responsive, mobile first website. It also checks to see if i can translate figma designs to actual web pages.
+**[Portfiolio - Mobile first Project]** is my first project to show that I can use industry best-practices to design a responsive, mobile first website. It also checks to see if i can translate figma designs to actual web pages. I did use Figma and Behance for my design inspirations these days.
 
 ## 🛠 Built With <a name="built-with"></a>
 
