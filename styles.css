@@ -576,7 +576,7 @@ textarea:focus {
   display: none;
 }
 
-/* =========================================Media Query for 768 pixels and above============================================================ */
+/* =========================================Media Query for 768px and above============================================================ */
 @media only screen and (min-width: 768px) {
   .burger,
   .intro1 {
