@@ -528,11 +528,11 @@ body {
 }
 
 .contact-text {
-  font-size: 20px;
-  color: #ebebff;
-  width: 85%;
   text-align: center;
+  font-size: 20px;
+  width: 85%;
   word-spacing: 3px;
+  color: #ebebff;
 }
 
 form {
@@ -542,15 +542,15 @@ form {
 }
 
 input,
-textarea,
 input:focus,
+textarea,
 textarea:focus {
-  font-family: 'Poppins', sans-serif;
-  font-size: 17px;
   padding: 10px;
   margin: 10px 0 10px 0;
+  font-size: 17px;
   border-radius: 8px;
   border: none;
+  font-family: 'Poppins', sans-serif;
   outline: none;
   color: #637083;
 }
