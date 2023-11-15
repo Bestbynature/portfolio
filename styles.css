@@ -491,6 +491,7 @@ body {
   margin-right: 10px;
 }
 
+
 .gray-box {
   width: 97%;
   height: auto;
@@ -515,11 +516,13 @@ body {
   align-items: center;
 }
 
+
 .bg {
   width: 100%;
   height: auto;
   background-color: #fff;
 }
+
 
 .contact-title {
   color: #fff;
