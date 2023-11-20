@@ -6,7 +6,7 @@
 
 body {
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .error-message {
@@ -489,7 +489,6 @@ body {
   margin-right: 10px;
 }
 
-
 .gray-box {
   width: 97%;
   height: auto;
@@ -514,13 +513,11 @@ body {
   align-items: center;
 }
 
-
 .bg {
   width: 100%;
   height: auto;
   background-color: #fff;
 }
-
 
 .contact-title {
   color: #fff;
@@ -551,7 +548,7 @@ textarea:focus {
   font-size: 17px;
   border-radius: 8px;
   border: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   outline: none;
   color: #637083;
 }
@@ -733,11 +730,17 @@ textarea:focus {
     font-size: 25px;
   }
 
-  .canopy { margin: 1px 0 10px 0; }
+  .canopy {
+    margin: 1px 0 10px 0;
+  }
 
-  .span1 { font-size: 12px; }
+  .span1 {
+    font-size: 12px;
+  }
 
-  .span2 { font-size: 5px; }
+  .span2 {
+    font-size: 5px;
+  }
 
   .card-text {
     font-size: 15px;
@@ -746,7 +749,9 @@ textarea:focus {
     line-height: 20px;
   }
 
-  .btns-33 ul { margin: 5px 0 5px 0; }
+  .btns-33 ul {
+    margin: 5px 0 5px 0;
+  }
 
   .see {
     width: 29%;
@@ -765,7 +770,9 @@ textarea:focus {
     transition: transform 0.5s ease-in-out;
   }
 
-  .img-top:hover { transform: translateY(-7px); }
+  .img-top:hover {
+    transform: translateY(-7px);
+  }
 
   .about {
     flex-direction: row;
@@ -777,7 +784,9 @@ textarea:focus {
     padding-top: 23px;
   }
 
-  .about1 p { font-size: 12px; }
+  .about1 p {
+    font-size: 12px;
+  }
 
   .about1 h2 {
     font-size: 30px;
@@ -785,7 +794,9 @@ textarea:focus {
     margin-bottom: 10px;
   }
 
-  .about1 h3 { font-size: 13px; }
+  .about1 h3 {
+    font-size: 13px;
+  }
 
   .about2 {
     flex-basis: 50%;
@@ -818,12 +829,18 @@ textarea:focus {
     background-size: cover;
   }
 
-  form { width: 40%; }
+  form {
+    width: 40%;
+  }
 
   input,
-  textarea { border-radius: 0; }
+  textarea {
+    border-radius: 0;
+  }
 
-  .contact-title { font-size: 30px; }
+  .contact-title {
+    font-size: 30px;
+  }
 
   .contact-text {
     width: 45%;
@@ -831,7 +848,9 @@ textarea:focus {
     margin-bottom: 10px;
   }
 
-  #base { display: none; }
+  #base {
+    display: none;
+  }
 
   .expad {
     margin: 0 auto 60px auto;
@@ -898,7 +917,11 @@ textarea:focus {
   }
 
   .rect {
-    background: linear-gradient(to right, rgba(159, 236, 16, 0.75), rgba(226, 78, 206, 0.75));
+    background: linear-gradient(
+      to right,
+      rgba(159, 236, 16, 0.75),
+      rgba(226, 78, 206, 0.75)
+    );
     padding: 10px;
     width: 40%;
     height: 40%;

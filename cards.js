@@ -1,5 +1,5 @@
 export default function populateCards() {
-  const works = document.querySelector('#portfolio');
+  const works = document.querySelector("#portfolio");
 
   works.innerHTML += `
               <div class="card">
@@ -341,5 +341,5 @@ export default function populateCards() {
 
         <!-- =============================end of work 6 ======================================== -->
 
-    `
+    `;
 }
