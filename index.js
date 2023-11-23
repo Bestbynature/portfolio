@@ -324,6 +324,8 @@ const modal2 = document.querySelector(".modal2");
 const about = document.getElementById("about");
 const contact = document.getElementById("contact");
 
+// the generator function
+
 function generator(num) {
   modal2.style.display = "flex";
 
@@ -470,6 +472,7 @@ function generator(num) {
   dynRule.className = "dyn-rule";
   modal2.appendChild(dynRule);
 }
+
 
 detailsBtn.forEach((detail, index) => {
   detail.addEventListener("click", () => {
